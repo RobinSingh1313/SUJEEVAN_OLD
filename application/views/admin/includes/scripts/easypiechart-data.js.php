@@ -1,0 +1,1 @@
+<script src="<?php echo base_url();?>admin-assets/js/easypiechart-data.js"></script>

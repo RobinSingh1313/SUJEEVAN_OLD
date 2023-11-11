@@ -1,0 +1,1 @@
+<script src="<?php echo base_url();?>admin-assets/js/Lightweight-Chart/jquery.chart.js"></script>

@@ -1,0 +1,1 @@
+<link href="<?php echo base_url();?>admin-assets/css/font-awesome.css" rel="stylesheet" />

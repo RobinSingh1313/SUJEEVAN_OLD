@@ -1,0 +1,67 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 Mar, 2021, 1:05:13 PM
+    Author     : DELL
+*/
+.img-responsive{
+    max-width:100%;
+}
+.label {
+  position: relative;
+  padding: 0.25rem 0.45rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 3px; }
+.label-primary {
+  color: #043567;
+  background-color: #cee0f4;
+  border-color: #bad4ef; }
+
+.label-secondary {
+  color: #383d41;
+  background-color: #e2e3e5;
+  border-color: #d6d8db; }
+
+.label-success {
+  color: #126304;
+  background-color: #d3f2ce;
+  border-color: #c1edba; }
+.label-info {
+  color: #0c5460;
+  background-color: #d1ecf1;
+  border-color: #bee5eb; }
+
+.label-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb; }
+.label-light {
+  color: #818182;
+  background-color: #fefefe;
+  border-color: #fdfdfe; }
+.label-dark {
+    color: #1b1e21;
+    background-color: #d6d8d9;
+    border-color: #c6c8ca; 
+}
+.imglogoho{
+    width:100px;
+    height:100px;
+}
+.imageThumb {
+    max-height: 75px;
+    border: 2px solid #efefef;
+    padding: 1px;
+    cursor: pointer;
+}
+.pip {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+}
+.text-error{
+    color:#DC3545 !important;
+}

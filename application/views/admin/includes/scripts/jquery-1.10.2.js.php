@@ -1,0 +1,1 @@
+<script src="<?php echo base_url();?>admin-assets/js/jquery-1.10.2.js"></script>

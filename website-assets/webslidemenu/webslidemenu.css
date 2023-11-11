@@ -1,0 +1,500 @@
+/*--------------------------------------------------------------------------
+[Table of contents]
+
+01 Base CSS
+02 Desktop CSS
+03 Mobile CSS
+--------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------
+|  01  Base CSS 
+--------------------------------------------------------------------------*/
+
+.wstoggle{
+	position: relative;
+  }
+.menu-back-sec{
+  position: absolute;
+  content: '';
+  top: 0%;
+  right: 0%;
+  z-index: 999;
+}
+.menu-back-sec img{
+  width: 130px;
+}
+.wsfullmain html,
+.wsfullmain body,
+.wsfullmain iframe,
+.wsfullmain h1,
+.wsfullmain h2,
+.wsfullmain h3,
+.wsfullmain h4,
+.wsfullmain h5,
+.wsfullmain h6 {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font: inherit;
+	vertical-align: baseline;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 18px;
+	font-family: Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-font-smoothing: subpixel-antialiased !important;
+}
+
+.wsfullmain .cl {
+	clear: both;
+}
+
+.wsfullmain .clearfix:before,
+.wsfullmain .clearfix:after {
+	content: "";
+	display: table;
+}
+
+.wsfullmain .clearfix:after {
+	clear: both;
+}
+
+.wsfullmain .clearfix {
+	zoom: 1;
+}
+
+.wsfullmain textarea {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.wsfullmain img,
+object,
+embed,
+video {
+	border: 0 none;
+	max-width: 100%;
+}
+
+.wsfullmain a:focus {
+	outline: none !important;
+}
+
+.wsfullmain:before,
+.wsfullmain:after {
+	content: "";
+	display: table;
+}
+
+.wsfullmain:after {
+	clear: both;
+}
+
+/*--------------------------------------------------------------------------
+|  02 Desktop CSS
+--------------------------------------------------------------------------*/
+
+.ani01 {
+	transition: 1s;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+}
+
+#wstoggle {
+	display: block;
+	width: 65px;
+	height: 60px;
+	position: absolute;
+	right: 45px;
+	top: 15px;
+	font-size: 24px;
+	line-height: 54px;
+	z-index: 9999999;
+	text-align: right;
+	cursor: pointer;
+}
+
+#wstoggle:before {
+	content: "Menu";
+	font-size: 11px;
+	font-style: normal;
+	text-indent: 29px;
+	text-transform: uppercase;
+	font-family: Arial;
+	color: #fff;
+}
+
+#wstoggle span {
+	position: relative;
+	display: inline-block;
+	width: 26px;
+	height: 2px;
+	background-color: #fff;
+	vertical-align: middle;
+	-webkit-transition-duration: .3s, .3s;
+	-moz-transition-duration: .3s, .3s;
+	-ms-transition-duration: .3s, .3s;
+	-o-transition-duration: .3s, .3s;
+	transition-duration: .3s, .3s;
+	-webkit-transition-delay: .3s, 0s;
+	-moz-transition-delay: .3s, 0s;
+	-ms-transition-delay: .3s, 0s;
+	-o-transition-delay: .3s, 0s;
+	transition-delay: .3s, 0s;
+	margin-top: 1px;
+	margin-left: 6px;
+	width: 22px;
+}
+
+#wstoggle span:after,
+#wstoggle span:before {
+	content: "";
+	position: absolute;
+	display: inline-block;
+	width: 26px;
+	height: 2px;
+	left: 0;
+	background-color: #fff;
+	-webkit-transition-duration: .3s, .3s;
+	-moz-transition-duration: .3s, .3s;
+	-ms-transition-duration: .3s, .3s;
+	-o-transition-duration: .3s, .3s;
+	transition-duration: .3s, .3s;
+	-webkit-transition-delay: .3s, 0s;
+	-moz-transition-delay: .3s, 0s;
+	-ms-transition-delay: .3s, 0s;
+	-o-transition-delay: .3s, 0s;
+	transition-delay: .3s, 0s
+}
+
+#wstoggle span:before {
+	top: -8px;
+	-webkit-transition-property: top, transform;
+	-moz-transition-property: top, transform;
+	-ms-transition-property: top, transform;
+	-o-transition-property: top, transform;
+	transition-property: top, transform
+}
+
+#wstoggle span:after {
+	bottom: -8px;
+	-webkit-transition-property: bottom, transform;
+	-moz-transition-property: bottom, transform;
+	-ms-transition-property: bottom, transform;
+	-o-transition-property: bottom, transform;
+	transition-property: bottom, transform
+}
+
+#wstoggle.active span {
+	background-color: transparent;
+	-webkit-transition-delay: 0s, 0s;
+	-moz-transition-delay: 0s, 0s;
+	-ms-transition-delay: 0s, 0s;
+	-o-transition-delay: 0s, 0s;
+	transition-delay: 0s, 0s
+}
+
+#wstoggle.active span:after,
+#wstoggle.active span:before {
+	-webkit-transition-delay: 0s, .3s;
+	-moz-transition-delay: 0s, .3s;
+	-ms-transition-delay: 0s, .3s;
+	-o-transition-delay: 0s, .3s;
+	transition-delay: 0s, .3s
+}
+
+#wstoggle.active span:before {
+	top: 0;
+	background: #fff;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg)
+}
+
+#wstoggle.active span:after {
+	bottom: 0;
+	background: #fff;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg)
+}
+
+
+/*=================== END Menu toggle ===================*/
+
+
+.main,
+body.wsfopen {
+	overflow: hidden;
+}
+
+
+
+.wsfmain {
+	bottom: 0;
+	height: 100%;
+	left: 0;
+	/*overflow-y: auto;*/
+	pointer-events: none;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 20;
+	display: block;
+}
+
+.wsfmenufull {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	left: 0;
+	position: absolute;
+	top: 0;
+	transform: scaleX(0);
+	transition: transform 0.4s ease 0.07s;
+}
+
+.wsfmenufull .wsfwrap {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.wsfmenufull .wsfwrapinner {
+	display: block;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 85px 0px 55px 55px;
+}
+
+.wsfopen .wsfmenufull {
+	transform: scaleX(1);
+}
+
+.wsfopen .wsfmain {
+	pointer-events: auto;
+}
+
+.wslogo {
+	width: 128px;
+	margin: 0 auto;
+	display: block;
+	padding-bottom: 35px;
+}
+
+.wsfulllinksty {
+	width: 14%;
+	margin: 0;
+	padding: 45px 0px;
+	list-style: none;
+	float: left;
+
+}
+.wsfulllinksty2 {
+	width: 12% !important;
+}
+
+
+.wsfulllinksty li:first-child {
+	padding-bottom: 15px;
+	letter-spacing: 1px;
+}
+
+.wsfulllinksty li {
+	font-size: 16px;
+	font-weight: 900;
+	color: #fff;
+	display: block;
+	text-transform: uppercase;
+	line-height: 29px;
+
+}
+
+.wsfulllinksty li a {
+	font-size: 14px;
+	font-weight: 600;
+	color: #fff;
+	text-decoration: none;
+	transition: 1s;
+
+}
+.wsfulllinksty .lnk{
+	font-weight: 400;
+}
+
+.wsfulllinksty li a:hover {
+	padding-left: 5px;
+    color: #f5821f !important;
+}
+
+
+.wsbottompart {
+	width: 100%;
+	display: block;
+	border-top: solid 1px rgba(255, 255, 255, 0.25);
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	padding: 25px 0px 35px 0px;
+	position: fixed;
+	bottom: 0px;
+
+}
+
+.wsbottompart a {
+	color: #fff;
+	text-decoration: none
+}
+
+.wsbottompart span {
+	padding: 0px 4px;
+}
+
+.wsbottompart a:hover {
+	text-decoration: underline
+}
+
+
+
+/*Color Animation*/
+
+.wsfanimatedcolors {
+	background: linear-gradient(180deg, #000000, #020100, #222b58, #000000, #080013);
+	background-size: 1000% 1000%;
+	-webkit-animation: wsgdrcolors 10s ease infinite;
+	-moz-animation: wsgdrcolors 10s ease infinite;
+	animation: wsgdrcolors 10s ease infinite;
+}
+
+@-webkit-keyframes wsgdrcolors {
+	0% {
+		background-position: 0% 90%
+	}
+
+	50% {
+		background-position: 100% 11%
+	}
+
+	100% {
+		background-position: 0% 90%
+	}
+}
+
+@-moz-keyframes wsgdrcolors {
+	0% {
+		background-position: 0% 90%
+	}
+
+	50% {
+		background-position: 100% 11%
+	}
+
+	100% {
+		background-position: 0% 90%
+	}
+}
+
+@keyframes wsgdrcolors {
+	0% {
+		background-position: 0% 90%
+	}
+
+	50% {
+		background-position: 100% 11%
+	}
+
+	100% {
+		background-position: 0% 90%
+	}
+}
+
+/*Color Animation*/
+
+
+
+/*--------------------------------------------------------------------------
+|  03 Mobile CSS
+--------------------------------------------------------------------------*/
+@media only screen and (max-width: 600px) {
+	.logo img {
+		width: 150px !important;
+	}
+
+	.logo {
+		left: 0px;
+		top: 0px;
+	}
+	   
+	#wstoggle{
+	right: 28px;
+    top: 0px;
+	}
+	#wstoggle:before {
+		font-size: 8px;
+	}
+	
+}
+@media only screen and (max-width: 475px){
+	.logo img {
+		width: 140px !important;
+		transform: rotate(359deg);
+	}
+}
+
+
+@media only screen and (max-width: 880px) {
+	.wsfulllinksty {
+		width: 100%;
+		padding: 10px 0px;
+	}
+
+	.wsfopen .wsfmain {
+		position: static;
+		overflow: auto;
+	}
+
+	.wsfmenufull {
+		position: static;
+		overflow: auto;
+	}
+
+	.main,
+	body.wsfopen {
+		overflow: auto;
+	}
+
+	.wsfmenufull .wsfwrapinner {
+
+		padding: 45px 25px;
+	}
+
+	.wsbottompart {
+		position: static;
+		line-height: 25px;
+		padding: 35px 20px;
+	}
+}
+
+@media (max-width: 600px) {
+	.menu-back-sec img {
+		width: 100px;
+	}
+}
+
+@media (max-width: 1200px) {
+    .wsfmenufull .wsfwrapinner {
+        padding: 65px 0px 55px 55px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .wsfmenufull .wsfwrapinner {
+        padding: 30px 0px 55px 55px;
+    }
+}

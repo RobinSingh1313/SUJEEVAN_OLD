@@ -1,0 +1,164 @@
+[14-Aug-2021 09:15:54 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home4/chefsqv7/sujeevan.advitapps.com/application//third_party/PHPExcel.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home4/chefsqv7/sujeevan.advitapps.com/application/libraries/Excel.php on line 11
+[17-Aug-2021 13:56:51 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php:397
+Stack trace:
+#0 [internal function]: Api->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 397
+[17-Aug-2021 13:56:55 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php:397
+Stack trace:
+#0 [internal function]: Api->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 397
+[17-Aug-2021 13:57:01 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php:397
+Stack trace:
+#0 [internal function]: Api->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 397
+[17-Aug-2021 14:55:33 America/Chicago] PHP Warning:  ini_set(): A session is active. You cannot change the session module's ini settings at this time in /home4/chefsqv7/sujeevan.advitapps.com/system/libraries/Session/Session_driver.php on line 205
+[17-Aug-2021 15:04:02 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php:397
+Stack trace:
+#0 [internal function]: Api->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 397
+[17-Aug-2021 15:04:02 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php:397
+Stack trace:
+#0 [internal function]: Api->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 397
+[17-Aug-2021 15:04:08 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php:397
+Stack trace:
+#0 [internal function]: Api->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 397
+[17-Aug-2021 15:04:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php:397
+Stack trace:
+#0 [internal function]: Api->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 397
+[17-Aug-2021 15:04:24 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php:397
+Stack trace:
+#0 [internal function]: Api->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 397
+[17-Aug-2021 15:04:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php:397
+Stack trace:
+#0 [internal function]: Api->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 397
+[17-Aug-2021 15:04:34 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php:397
+Stack trace:
+#0 [internal function]: Api->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 397
+[19-Aug-2021 07:27:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php:397
+Stack trace:
+#0 [internal function]: Api->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 397
+[13-Sep-2021 11:00:02 America/Chicago] PHP Fatal error:  Cannot redeclare Api::health_sub_category_list() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 573
+[13-Sep-2021 11:00:11 America/Chicago] PHP Fatal error:  Cannot redeclare Api::health_sub_category_list() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 573
+[13-Sep-2021 11:00:30 America/Chicago] PHP Fatal error:  Cannot redeclare Api::health_sub_category_list() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 573
+[13-Sep-2021 11:00:39 America/Chicago] PHP Fatal error:  Cannot redeclare Api::health_sub_category_list() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 573
+[13-Sep-2021 11:00:49 America/Chicago] PHP Fatal error:  Cannot redeclare Api::health_sub_category_list() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 573
+[13-Sep-2021 11:00:56 America/Chicago] PHP Fatal error:  Cannot redeclare Api::health_sub_category_list() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 573
+[13-Sep-2021 11:01:04 America/Chicago] PHP Fatal error:  Cannot redeclare Api::health_sub_category_list() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 573
+[13-Sep-2021 11:01:12 America/Chicago] PHP Fatal error:  Cannot redeclare Api::health_sub_category_list() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 573
+[13-Sep-2021 11:01:56 America/Chicago] PHP Fatal error:  Cannot redeclare Api::health_sub_category_list() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 573
+[13-Sep-2021 11:02:11 America/Chicago] PHP Fatal error:  Cannot redeclare Api::health_sub_category_list() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 573
+[13-Sep-2021 11:02:16 America/Chicago] PHP Fatal error:  Cannot redeclare Api::health_sub_category_list() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 573
+[13-Sep-2021 11:02:59 America/Chicago] PHP Fatal error:  Cannot redeclare Api::health_sub_category_list() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 573
+[13-Sep-2021 11:03:36 America/Chicago] PHP Fatal error:  Cannot redeclare Api::health_sub_category_list() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 573
+[13-Sep-2021 11:03:43 America/Chicago] PHP Fatal error:  Cannot redeclare Api::health_sub_category_list() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 573
+[20-Sep-2021 06:52:09 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php:782
+Stack trace:
+#0 [internal function]: Api->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 782
+[20-Sep-2021 06:52:15 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php:782
+Stack trace:
+#0 [internal function]: Api->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 782
+[20-Sep-2021 06:52:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php:782
+Stack trace:
+#0 [internal function]: Api->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 782
+[22-Oct-2021 03:15:17 America/Chicago] PHP Fatal error:  Cannot redeclare Registration_model::activedeactive() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/registration/models/Registration_model.php on line 183
+[15-Nov-2021 23:36:38 America/Chicago] PHP Fatal error:  Cannot redeclare Users_model::assign_doctor() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/users/models/Users_model.php on line 188
+[15-Nov-2021 23:36:55 America/Chicago] PHP Fatal error:  Cannot redeclare Users_model::assign_doctor() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/users/models/Users_model.php on line 188
+[15-Nov-2021 23:36:55 America/Chicago] PHP Fatal error:  Cannot redeclare Users_model::assign_doctor() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/users/models/Users_model.php on line 188
+[15-Nov-2021 23:37:56 America/Chicago] PHP Fatal error:  Cannot redeclare Users_model::assign_doctor() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/users/models/Users_model.php on line 188
+[15-Nov-2021 23:38:38 America/Chicago] PHP Fatal error:  Cannot redeclare Users_model::assign_doctor() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/users/models/Users_model.php on line 188
+[15-Nov-2021 23:38:53 America/Chicago] PHP Fatal error:  Cannot redeclare Users_model::assign_doctor() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/users/models/Users_model.php on line 188
+[15-Nov-2021 23:38:57 America/Chicago] PHP Fatal error:  Cannot redeclare Users_model::assign_doctor() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/users/models/Users_model.php on line 188
+[15-Nov-2021 23:38:59 America/Chicago] PHP Fatal error:  Cannot redeclare Users_model::assign_doctor() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/users/models/Users_model.php on line 188
+[15-Nov-2021 23:39:00 America/Chicago] PHP Fatal error:  Cannot redeclare Users_model::assign_doctor() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/users/models/Users_model.php on line 188
+[15-Nov-2021 23:39:06 America/Chicago] PHP Fatal error:  Cannot redeclare Users_model::assign_doctor() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/users/models/Users_model.php on line 188
+[15-Nov-2021 23:39:15 America/Chicago] PHP Fatal error:  Cannot redeclare Users_model::assign_doctor() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/users/models/Users_model.php on line 188
+[15-Nov-2021 23:39:16 America/Chicago] PHP Fatal error:  Cannot redeclare Users_model::assign_doctor() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/users/models/Users_model.php on line 188
+[15-Nov-2021 23:39:20 America/Chicago] PHP Fatal error:  Cannot redeclare Users_model::assign_doctor() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/users/models/Users_model.php on line 188
+[15-Nov-2021 23:39:37 America/Chicago] PHP Fatal error:  Cannot redeclare Users_model::assign_doctor() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/users/models/Users_model.php on line 188
+[15-Nov-2021 23:40:34 America/Chicago] PHP Fatal error:  Cannot redeclare Users_model::assign_doctor() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/users/models/Users_model.php on line 188
+[15-Nov-2021 23:41:24 America/Chicago] PHP Fatal error:  Cannot redeclare Users_model::assign_doctor() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/users/models/Users_model.php on line 188
+[15-Nov-2021 23:42:08 America/Chicago] PHP Fatal error:  Cannot redeclare Users_model::assign_doctor() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/users/models/Users_model.php on line 188
+[15-Nov-2021 23:42:26 America/Chicago] PHP Fatal error:  Cannot redeclare Users_model::assign_doctor() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/users/models/Users_model.php on line 188
+[15-Nov-2021 23:42:26 America/Chicago] PHP Fatal error:  Cannot redeclare Users_model::assign_doctor() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/users/models/Users_model.php on line 188
+[16-Nov-2021 01:49:50 America/Chicago] PHP Fatal error:  Cannot redeclare Vendor_api::prescription_update() in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Vendor_api.php on line 680
+[13-Dec-2021 04:34:59 America/Chicago] PHP Fatal error:  Only variables can be passed by reference in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/models/Api_model.php on line 1777
+[29-Dec-2021 12:57:31 Asia/Kolkata] PHP Fatal error:  Can't use function return value in write context in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Vendor_api.php on line 150
+[29-Dec-2021 12:57:45 Asia/Kolkata] PHP Fatal error:  Can't use function return value in write context in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Vendor_api.php on line 150
+[29-Dec-2021 12:58:00 Asia/Kolkata] PHP Fatal error:  Can't use function return value in write context in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Vendor_api.php on line 150
+[29-Dec-2021 12:58:13 Asia/Kolkata] PHP Fatal error:  Can't use function return value in write context in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Vendor_api.php on line 150
+[29-Dec-2021 12:58:15 Asia/Kolkata] PHP Fatal error:  Can't use function return value in write context in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Vendor_api.php on line 150
+[29-Dec-2021 12:58:39 Asia/Kolkata] PHP Fatal error:  Can't use function return value in write context in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Vendor_api.php on line 150
+[29-Dec-2021 12:58:44 Asia/Kolkata] PHP Fatal error:  Can't use function return value in write context in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Vendor_api.php on line 150
+[29-Dec-2021 13:32:57 Asia/Kolkata] PHP Fatal error:  Can't use function return value in write context in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Vendor_api.php on line 150
+[29-Dec-2021 13:33:01 Asia/Kolkata] PHP Fatal error:  Can't use function return value in write context in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Vendor_api.php on line 150
+[29-Dec-2021 13:33:34 Asia/Kolkata] PHP Fatal error:  Can't use function return value in write context in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Vendor_api.php on line 150
+[29-Dec-2021 13:34:14 Asia/Kolkata] PHP Fatal error:  Can't use function return value in write context in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Vendor_api.php on line 150
+[29-Dec-2021 13:35:49 Asia/Kolkata] PHP Fatal error:  Can't use function return value in write context in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Vendor_api.php on line 150
+[29-Dec-2021 13:36:11 Asia/Kolkata] PHP Fatal error:  Can't use function return value in write context in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Vendor_api.php on line 150
+[29-Dec-2021 13:36:42 Asia/Kolkata] PHP Fatal error:  Can't use function return value in write context in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Vendor_api.php on line 200
+[29-Dec-2021 13:37:06 Asia/Kolkata] PHP Fatal error:  Can't use function return value in write context in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Vendor_api.php on line 201
+[29-Dec-2021 13:37:44 Asia/Kolkata] PHP Fatal error:  Can't use function return value in write context in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Vendor_api.php on line 201
+[29-Dec-2021 13:38:13 Asia/Kolkata] PHP Fatal error:  Can't use function return value in write context in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Vendor_api.php on line 200
+[29-Dec-2021 13:39:53 Asia/Kolkata] PHP Fatal error:  Constant expression contains invalid operations in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/models/Api2_model.php on line 1680
+[29-Dec-2021 13:42:57 Asia/Kolkata] PHP Fatal error:  Can't use function return value in write context in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Vendor_api.php on line 200
+[06-Jan-2022 16:51:33 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php:1423
+Stack trace:
+#0 [internal function]: Api->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 1423
+[06-Jan-2022 16:51:38 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php:1423
+Stack trace:
+#0 [internal function]: Api->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 1423
+[06-Jan-2022 16:51:42 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php:1423
+Stack trace:
+#0 [internal function]: Api->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 1423
+[06-Jan-2022 16:52:04 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/telecaller/controllers/Telecaller_users.php:545
+Stack trace:
+#0 [internal function]: Telecaller_users->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/telecaller/controllers/Telecaller_users.php on line 545
+[06-Jan-2022 16:52:12 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/telecaller/controllers/Telecaller_users.php:545
+Stack trace:
+#0 [internal function]: Telecaller_users->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/telecaller/controllers/Telecaller_users.php on line 545
+[06-Jan-2022 16:52:20 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php:1423
+Stack trace:
+#0 [internal function]: Api->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/api/controllers/Api.php on line 1423
+[06-Jan-2022 16:52:26 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to a member function close() on null in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/telecaller/controllers/Telecaller_users.php:545
+Stack trace:
+#0 [internal function]: Telecaller_users->__destruct()
+#1 {main}
+  thrown in /home4/chefsqv7/sujeevan.advitapps.com/application/modules/telecaller/controllers/Telecaller_users.php on line 545
+[02-Mar-2022 09:19:48 Asia/Kolkata] PHP Notice:  Undefined index: HTTP_HOST in /home/appsujeevan/public_html/application/config/config.php on line 26
+[05-Mar-2022 10:56:20 Asia/Kolkata] PHP Notice:  Undefined index: HTTP_HOST in /home/appsujeevan/public_html/application/config/config.php on line 26
