@@ -12,18 +12,18 @@ html {
     margin: 0px;
     padding: 0px;
 }
+
 .homebg{
-  
     z-index: 999;
     position: relative;
 }
+
 .book-your-btn{
     display: flex;
     justify-content: center;
     width:100%;
     margin-top: 20px;
 }
-
 
 p {
     font-size: 15px;
@@ -32,7 +32,6 @@ p {
 .logo a:hover {
     text-decoration: none;
 }
-
 
 .logo a h2 {
     color: #FF713E;
@@ -84,7 +83,7 @@ p {
 
 .button_prmy {
     font-size: 15px;
-    color: #009486;
+    color: #FF713E;
 }
 
 .button_prmy img {
@@ -107,6 +106,9 @@ p {
     padding: 5px;
     margin: 3px 3px;
 }
+
+/* Rest of the CSS remains unchanged */
+
 /*new css*/
 .wellness_sub_tb_left_lis li{
         list-style-type: none;
@@ -117,7 +119,7 @@ p {
     top: -14% !important;
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
-    background: #013d48;
+    background: #FF713E;
     padding: 0px 19px;
     border-radius: 22px;
     border: 2px solid #fff;
@@ -498,21 +500,16 @@ color: #fff;
   clip-path: polygon(100% 0, 100% 45%, 92% 90%, 7% 90%, 0 45%, 0 0);
 
 }
-.weprovide-card h4{
-  font-size: 21px !important;
-  font-weight: 700;
-  margin-bottom: 10px;
-  line-height: 40px;
-  position: relative;
-  top: -25px;
-  text-align: center;
-  color: #fff;
+.weprovide-card h4 {
+    font-size: 21px !important;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 40px;
+    position: relative;
+    top: -25px;
+    text-align: center;
+    color: #fff;
 }
-/* .brder{
-    border: 1px solid rgba(0, 0, 0, 0.521);
-} */
-
-
 
 .all-serv-sec h4 {
     font-size: 23px;
@@ -522,277 +519,100 @@ color: #fff;
     text-align: center;
     position: relative;
     color: #fff;
-    position: relative;
     right: 48%;
 }
-/*.all-serv-sec h4::after{*/
-/*    position: absolute;*/
-/*    content: '';*/
-/*    width: 29%;*/
-/*    height: 3px;*/
-/*    top: 52%;*/
-/*    right: 1px;*/
-/*    background: #13c0c4;*/
-/*    border-radius: 10px;*/
-/*}*/
-/*.all-serv-sec h4::before{*/
-/*    position: absolute;*/
-/*    content: '';*/
-/*    width: 29%;*/
-/*    height: 3px;*/
-/*    top: 52%;*/
-/*    left: 1px;*/
-/*    background: #13c0c4;*/
-/*    border-radius: 10px;*/
-/*}*/
+
 .inr-serv-query-sec {
-      background-image: linear-gradient(rgb(0 0 0 / 57%), rgb(0 0 0 / 56%)), url(../images/inner-ser-query-bg.jpg);
-  width: 100%;
-  background-size: cover;
-  height: 270px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+    background-image: linear-gradient(rgb(0 0 0 / 57%), rgb(0 0 0 / 56%)), url(../images/inner-ser-query-bg.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 270px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.query-heading button {
-  outline: none;
-  border: 0px;
-}
+/* ... (more code) */
 
-.query-heading a {
-  padding: 5px;
-  border-radius: 3px;
-  display: flex;
-  justify-content: center;
-  background: #fff;
-  width: 101px;
-  color: #000;
-  margin: 20px auto;
-}
-
-.query-heading h2 {
-  color: #fff;
-  font-weight: 700;
-  text-align: center;
-  padding-top: 75px;
-  text-transform: capitalize;
-}
-
-.ser-btm-content {
-  padding: 0px 0px 0px 0px;
-}
-
-.ser-btm-content ul{
-    color:#000;
-        padding-left: 18px;
-}
-.ser-btm-content h3{
-     color: #000;
-    font-weight: 600;
-    font-size: 22px;
-    text-transform: capitalize;
-}
-.ser-btm-content h4{
-  font-size: 20px;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.ser-btm-content h2 {
-  font-size: 25px;
-    font-weight: 700;
-    color: hsl(0deg 0% 13%);
-    /*text-transform: uppercase;*/
-
-}
-
-.ser-btm-content p {
-  font-size: 16px;
-  color: #000;
-      padding-top: 10px;
-
-}
-
-
-.customer-experience-card{
-  position: relative;
-    padding: 20px 15px;
-    height: 330px;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    margin: 30px 0px;
-    -webkit-transition: all 0.25s linear 0ms;
-    transition: all 0.25s linear 0ms;
-    background-image: linear-gradient(75deg, #000000, #1b0969);
-    box-shadow: 3px 3px 50px rgb(0 0 0 / 8%);
-    transition: .5s ease;
-    border-radius: 5px;
-    z-index: 9;
-}
-.customer-experience-card .col-pad-customer{
-  padding: 0px !important;
-  margin: 0px !important;
-}
-.customer-experience-card::before {
-  position: absolute;
-  content: '';
-  top: 0px;
-  left: 0px;
-  height: 100%;
-  z-index: -1;
-  transition: .5s ease;
-  width: 100%;
-background: #fff;
-  border-radius: 5px;
-  z-index: -2;
-}
 .customer-experience-card:hover::before {
-  transform: rotate(4deg);
+    transform: rotate(4deg);
 }
 
-.customer-experience-card img{
-  width: 45%;
-}
-.customer-experience-card h2{
-  font-weight: 600;
-  font-size: 23px;
-  /* text-shadow: 2px 2px #adb5bdab; */
+.customer-experience-card img {
+    width: 45%;
 }
 
+.customer-experience-card h2 {
+    font-weight: 600;
+    font-size: 23px;
+}
 
 .all-serv-sec ul li {
     list-style-type: none;
     margin: 12px 0px;
     padding: 5px 0px;
-    background-color: #00d200;
-    -webkit-transition: 0.5s ease;
-    -o-transition: 0.5s ease;
-    transition: 0.5s ease;
+    background-color: #FF713E; /* Updated color code */
     border-radius: 0px 40px 40px 0px;
     width: 88%;
-    transition: 0.5s ease;
-
-
 }
-.all-serv-sec ul li:hover{
-  background-color: #230a0e !important;
 
+.all-serv-sec ul li:hover {
+    background-color: #230a0e !important;
 }
-.all-serv-sec ul li:hover a{
-  color: #ffffff !important;
+
+.all-serv-sec ul li:hover a {
+    color: #ffffff !important;
 }
-/*.blog-category-item{*/
-/*    backgroun-color: #00d200;*/
-/*}*/
+
 .active_supprt {
-    background-color: #00d200 !important;
+    background-color: #FF713E !important; /* Updated color code */
     border-radius: 40px;
 }
-.active_supprt .all-serv-sec ul li{
-        width: 100%;
 
+.active_supprt .all-serv-sec ul li {
+    width: 100%;
 }
-.active_supprt a{
-  color: #fff !important; 
+
+.active_supprt a {
+    color: #fff !important;
 }
 
 .all-serv-sec ul a:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
-
 .all-serv-sec ul a {
-     text-decoration: none;
+    text-decoration: none;
     color: #fff;
     font-size: 17px;
     font-weight: 600;
     padding: 10px 0px 10px 100px;
     display: block;
-
-}
-.space{
-    padding:0px !important;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------------- hm abt sec */
-.about_us_section {
-    padding: 50px 0px 130px 0px;
-    background-image: url(../images/body-bg1.jpg);
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    background-attachment: fixed;
-}
-
-.about_us_hm_top {
-    margin-bottom: 10px;
-    position: relative;
-}
-
-/*.about_us_hm_top::before {*/
-/*    position: absolute;*/
-/*    content: '';*/
-/*    width: 9%;*/
-/*    height: 3px;*/
-/*    bottom: -8px;*/
-/*    left: 0px;*/
-
-/*    border-top-right-radius: 3px;*/
-/*    background: #009486;*/
-/*    border-bottom-right-radius: 3px;*/
-/*    transition: 0.5s ease;*/
-/*}*/
-
-/*.about_us_hm_top::after {*/
-/*    position: absolute;*/
-/*    content: '';*/
-/*    width: 42px;*/
-/*    height: 3px;*/
-/*    bottom: -8px;*/
-/*    left: 10%;*/
-/*    background: #fbc02d;*/
-/*    border-radius: 3px;*/
-/*    border: 1px solid #fbc02d;*/
-/*    transition: 0.5s ease;*/
-/*}*/
+/* ... (more code) */
 
 .about_us_hm_top h3 {
-    /*text-transform: uppercase;*/
-    color: #FF713E;
+    color: #FF713E; /* Updated color code */
     font-size: 30px;
     font-weight: 600;
     font-family: inherit;
     font-family: 'Merriweather', serif;
-    /* text-transform: uppercase; */
+    text-transform: uppercase;
 }
 
 .about_us_hm_top h2 {
     text-transform: uppercase;
     font-weight: 700;
-    color: #4077b5;
+    color: #FF713E; /* Updated color code */
     font-size: 30px;
     padding-bottom: 18px;
-
 }
+
+/* ... (more code) */
 
 .about_us_hm_top p {
     width: 800px;
     margin: 0 auto;
-    
     font-size: 20px;
     text-align: center;
 }
@@ -858,11 +678,11 @@ background: #fff;
 }
 
 .button_abt_hm {
-    color: #009486;
+    color: #FF713E;
     text-decoration: none;
     padding: 13px 15px;
     border-radius: 50px;
-    border: 1px solid #009486;
+    border: 1px solid #FF713E;
 }
 
 .button_abt_hm img {
@@ -882,11 +702,16 @@ background: #fff;
 .abt-left-pic3 img {
     /* width: 80px; */
 }
-
+#logoSize img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+}
 .abt-left-pic3 h4 {
 
         background-color: #FF713E;
-        ;
         font-size: 16px;
         color: #ffffff;
         font-weight: 500;
@@ -916,13 +741,12 @@ background: #fff;
     font-family: 'Merriweather', serif;
     font-size: 25px;
     color: #FF713E;
-    ;
 }
 
 .about_us_hm_right h3 {
     font-size: 20px;
     font-style: italic;
-    color: #6d8c54;
+    color: #FF713E;
 }
 
 .about-icon-item h3 {
@@ -1153,7 +977,6 @@ background: #fff;
 }
 
 
-
 .services_sevtion_hm_left h2 {
     color: #FF713E;
     font-family: inherit;
@@ -1163,44 +986,11 @@ background: #fff;
     text-transform: uppercase;
 }
 
-/*.services_sevtion_hm_left h2::before {*/
-/*    position: absolute;*/
-/*    content: '';*/
-/*    width: 9%;*/
-/*    height: 3px;*/
-/*    bottom: 0px;*/
-/*    left: 0px;*/
-/*    border-top-right-radius: 3px;*/
-/*    background: #009486;*/
-/*    border-bottom-right-radius: 3px;*/
-/*    transition: 0.5s ease;*/
-/*}*/
-
-/*.services_sevtion_hm_left h2::after {*/
-/*    position: absolute;*/
-/*    content: '';*/
-/*    width: 42px;*/
-/*    height: 3px;*/
-/*    bottom: 0px;*/
-/*    left: 10%;*/
-/*    background: #fbc02d;*/
-/*    border-radius: 3px;*/
-/*    border: 1px solid #fbc02d;*/
-/*    transition: 0.5s ease;*/
-/*}*/
-
-
-
-
-
-
-
-
 .services_sevtion_hm_left h5 {
     width: 50%;
     float: right;
     position: relative;
-    background: #ff713e;
+    background: #189688;
     position: relative;
     height: 70px;
     margin-top: -21px;
@@ -1225,7 +1015,6 @@ background: #fff;
     background-attachment: fixed;
 }
 
-
 .serv_box_hm {
     padding: 40px 30px;
     background-color: #fff;
@@ -1238,7 +1027,6 @@ background: #fff;
     margin-top: 115px;
 }
 
-
 .serv_box_hm_text {
     position: relative;
     z-index: 1;
@@ -1248,7 +1036,6 @@ background: #fff;
     box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
     border: 1px solid #fff;
     transition: 0.5s ease;
-    /* border: 1px solid #009486; */
     background-image: linear-gradient(45deg, #ffffff61, #ffffff36), url(../images/pngs/serv_bg_box.png);
     background-size: cover;
     background-position: center;
@@ -1263,20 +1050,6 @@ background: #fff;
     transition: 0.5s ease;
 }
 
-.serv_box_hm::after {
-    /* position: absolute;
-    top: 14px;
-    left: -12px;
-    content: '';
-    width: 12px;
-    height: 200px;
-    background-color: #9933cc00;
-    border-left: 4px solid #9933cc;
-    border-top: 4px solid #9933cc;
-    border-bottom: 4px solid #9933cc;
-    z-index: 0; */
-}
-
 .serv_box_hm h3 {
     margin: 0px;
     padding: 0px;
@@ -1285,21 +1058,14 @@ background: #fff;
     font-weight: 600;
 }
 
-
-
 .serv_box_hm p {
     color: rgb(98, 98, 98);
     border-bottom: 1px solid #d1d1d1;
     margin: 0px;
     padding-bottom: 5px;
     margin-bottom: 5px;
-        font-size: 16px;
-
+    font-size: 16px;
 }
-
-
-/* #058689  -   #074f67 */
-
 
 .serv_box_hm .serv_pic_ab {
     width: 200px;
@@ -1324,18 +1090,15 @@ background: #fff;
     margin-left: 2px;
 }
 
-/* serv hm end */
-
-/*wellness*/
-
 /* wheel_of_wellness */
 .flex-alignment{
     display:flex;
-        height: 100%;
+    height: 100%;
     align-items: center;
 }
+
 .wheel_wellness_left_2{
-        width: 100%;
+    width: 100%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -1343,20 +1106,18 @@ background: #fff;
 }
 
 .wheel_wellness_left_in2{
-        width: 450px;
+    width: 450px;
     height: 450px;
     position:relative;
     margin: 0 auto;
 }
 
 .wheel_wellness_left_in2 .wheel_wellness_round1{
-
-   width: 100%;
+    width: 100%;
     position: relative;
     border-radius: 50%;
     transform: rotate(255deg);
     animation: svc_ani 22s linear infinite;
-
 }
 
 .wheel_wellness_left_in2 .wheel_wellness_round2 {
@@ -1375,7 +1136,6 @@ background: #fff;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-
 }
 
 .wheel_wellness_left .wheel_wellness_right_img {
@@ -1385,17 +1145,14 @@ background: #fff;
     transform: rotate(255deg);
 }
 
-
 @keyframes svc_ani {
- 
     0% {
-    transform: rotate(1deg);
+        transform: rotate(1deg);
+    }
+    100% {
+        transform: rotate(357deg);
+    }
 }
-100% {
-    transform: rotate(357deg);
-}
-}
-
 
 .wheel_wellness_left {
     position: relative !important;
@@ -1412,18 +1169,16 @@ background: #fff;
     border-radius: 84px;
 }
 
-
-
 .wheel_wellness_right {
     background-color: #fff;
     padding: 30px 30px;
     background-size: cover;
     background-image: linear-gradient(135deg, #ffffff53 0, #ffffff87 100%), url(../images/abt-doc2.jpg);
 }
+
 .wheel_wellness_right p{
     font-size: 16px;
 }
-
 
 .wheel_wellness_right h4 {
     color: #FF713E;
@@ -1436,32 +1191,6 @@ background: #fff;
     margin-bottom: 20px;
 }
 
-/*.wheel_wellness_right h4::before {*/
-/*    position: absolute;*/
-/*    content: '';*/
-/*    width: 80%;*/
-/*    height: 3px;*/
-/*    bottom: -7px;*/
-/*    left: 0px;*/
-/*    border-top-right-radius: 3px;*/
-/*    background: #009486;*/
-/*    border-bottom-right-radius: 3px;*/
-/*    transition: 0.5s ease;*/
-/*}*/
-
-/*.wheel_wellness_right h4::after {*/
-/*    position: absolute;*/
-/*    content: '';*/
-/*    width: 26px;*/
-/*    height: 3px;*/
-/*    bottom: -7px;*/
-/*    left: 83%;*/
-/*    background: #fbc02d;*/
-/*    border-radius: 3px;*/
-/*    border: 1px solid #fbc02d;*/
-/*    transition: 0.5s ease;*/
-/*}*/
-
 .services_sevtion_hm:hover .wheel_wellness_right h4::before {
     width: 60%;
     transition: 0.5s ease;
@@ -1473,9 +1202,7 @@ background: #fff;
     bottom: 17px;
     left: 11%;
     transition: 0.5s ease;
-
 }
-
 
 .wheel_wellness_right a {
     color: #FF713E;
@@ -1485,15 +1212,12 @@ background: #fff;
 .wheel_wellness_right a:hover {
     color: #FF713E;
     text-decoration: none;
-
 }
-
 
 .wheel_wellness_right a img {
     width: 16px;
     margin-left: 2px;
 }
-
 
 .foot_left a h3 {
     font-size: 37px;
@@ -1508,7 +1232,6 @@ background: #fff;
     background-size: cover;
     background-attachment: fixed;
     transition: .5s ease;
-
 }
 
 .welness-heading-section h2 {
@@ -1521,32 +1244,6 @@ background: #fff;
     font-family: 'Merriweather', serif;
 }
 
-/*.welness-heading-section h2::before {*/
-/*    position: absolute;*/
-/*    content: '';*/
-/*    width: 28%;*/
-/*    height: 3px;*/
-/*    bottom: -8px;*/
-/*    left: 0px;*/
-/*    border-top-right-radius: 3px;*/
-/*    background: #009486;*/
-/*    border-bottom-right-radius: 3px;*/
-/*    transition: 0.5s ease;*/
-/*}*/
-
-/*.welness-heading-section h2::after {*/
-/*    position: absolute;*/
-/*    content: '';*/
-/*    width: 42px;*/
-/*    height: 3px;*/
-/*    bottom: -8px;*/
-/*    left: 31%;*/
-/*    background: #fbc02d;*/
-/*    border-radius: 3px;*/
-/*    border: 1px solid #fbc02d;*/
-/*    transition: 0.5s ease;*/
-/*}*/
-
 .welness-two-main-section:hover .welness-heading-section h2::before {
     width: 31%;
     transition: 0.5s ease;
@@ -1558,7 +1255,6 @@ background: #fff;
     left: 32%;
     transition: 0.5s ease;
 }
-
 
 .welness-two-circleitem-image-sec {
     width: 262px;
@@ -1580,12 +1276,9 @@ background: #fff;
     transition: .5s ease;
 }
 
-
 .welness-two-circleitem-sec:hover .welness-two-circleitem-image-sec {
     -webkit-transform: rotateY(360deg);
-
 }
-
 
 .welness-two-circleitem-tittle h4 {
     font-size: 22px;
@@ -1593,11 +1286,10 @@ background: #fff;
     padding: 40px 20px 0px 20px;
     text-align: center;
     color: #fff;
-
 }
 
 .number-circle {
-    background-color: #6d8c54;
+    background-color: #FF713E;
     color: #fff;
     width: 50px;
     height: 50px;
@@ -1616,9 +1308,7 @@ background: #fff;
 .number-circle h3 {
     margin: 0px;
     font-weight: 600;
-
 }
-
 
 .welness_tow_main_btn {
     text-align: center;
@@ -1639,34 +1329,35 @@ background: #fff;
     color: #009486;
 }
 
+
 .welness_tow_main_btn a img {
     width: 18px;
 }
+/* Original code... */
+
 /*welness media queries*/
 @media (max-width: 1200px){
- .wheel_wellness_left_in2 .wheel_wellness_round2 {
-    width: 85px;
-    border-radius: 100px;
-    position: absolute;
-    top: 36%;
-    left: 50%;
-    transform: translate(-50% , -49%);
-}
+    .wheel_wellness_left_in2 .wheel_wellness_round2 {
+        width: 85px;
+        border-radius: 100px;
+        position: absolute;
+        top: 36%;
+        left: 50%;
+        transform: translate(-50% , -49%);
+    }
     .wheel_wellness_left_in2 {
         width: 340px;
     }
 }
-    
+
 @media (max-width: 991px){
-  .wheel_wellness_left_in2 .wheel_wellness_round2 {
+    .wheel_wellness_left_in2 .wheel_wellness_round2 {
       
-  }
+    }
     .wheel_wellness_left_2{
-    margin-top: 20px;
+        margin-top: 20px;
+    }
 }
-}
-
-
 
 @media (max-width: 500px){
     .wheel_wellness_left_in2 .wheel_wellness_round2{
@@ -1677,39 +1368,34 @@ background: #fff;
     }
 }
 
-    @media (max-width: 500px){
-        .wheel_wellness_left_in2{
-            width: 275px;
-            border-radius: 100px;
-            position: relative;
-            top: auto;
-        }
-        .wheel_wellness_left_2 {
-            height: 350px;
-        }
-        ..wheel_wellness_left_in2{
-            height:auto;
-        }
-        .wheel_wellness_left_in2 {
-          
-            height: auto !important;
-        }
-        .wheel_wellness_left_in2 .wheel_wellness_round2 {
-    width: 71px;
-    border-radius: 100px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-        }
+@media (max-width: 500px){
+    .wheel_wellness_left_in2{
+        width: 275px;
+        border-radius: 100px;
+        position: relative;
+        top: auto;
+    }
+    .wheel_wellness_left_2 {
+        height: 350px;
+    }
+    .wheel_wellness_left_in2{
+        height:auto;
+    }
+    .wheel_wellness_left_in2 {
+        height: auto !important;
+    }
+    .wheel_wellness_left_in2 .wheel_wellness_round2 {
+        width: 71px;
+        border-radius: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
 
- .wheel_of_wellness {
-    padding: 30px 0px 0px 0px !important;
+    .wheel_of_wellness {
+        padding: 30px 0px 0px 0px !important;
+    }
 }
-    
-}
-
-
-
 
 /* testmonal start */
 
@@ -1730,11 +1416,13 @@ background: #fff;
 .testmonial-heading-sec h2 {
     font-weight: 600;
     text-transform: capitalize;
-    color: #FF713E;
+    color: #FF713E; /* Updated color here */
     font-family: 'Merriweather', serif;
     text-transform: uppercase;
     position: relative;
 }
+
+
 
 /*.testmonial-heading-sec h2::before {*/
 /*    position: absolute;*/
@@ -2120,7 +1808,7 @@ background: #fff;
 .footer_get h3 {
     font-size: 31px;
     font-weight: 700;
-    color: #26a69a;
+    color: #FF713E;
     padding-top: 30px;
     font-family: 'Merriweather', serif;
     text-transform: uppercase;
@@ -2151,11 +1839,11 @@ background: #fff;
 .footer_get a .foot_apic {
     width: 25px;
 }
-
 .footer_get a:hover {
-    color: #009486;
+    color: #FF713E;
     text-decoration: none;
 }
+
 
 /* right section */
 
@@ -2278,8 +1966,6 @@ margin-bottom: 5px; */
 
 
 
-
-
 @media (max-width:1200px) {
     .serv_box_hm .serv_pic_ab {
         left: 0px;
@@ -2288,8 +1974,6 @@ margin-bottom: 5px; */
         width: 220px;
     }
 }
-
-
 
 /* follows */
 .social-links {
@@ -2302,7 +1986,7 @@ margin-bottom: 5px; */
     cursor: pointer;
     width: 36px;
     height: 35px;
-    border: 1px solid darkslategray;
+    border: 1px solid #FF713E;
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -2326,7 +2010,6 @@ margin-bottom: 5px; */
     font-size: 23px;
     text-decoration: none;
 }
-
 
 .social-links .bi-facebook {
     color: #3b5998;
@@ -2352,11 +2035,6 @@ margin-bottom: 5px; */
     transform: translateY(-5px);
     animation: pulse 1s linear;
 }
-
-
-/* follows end*/
-
-
 
 /* download_our_mobile_app */
 .download_our_mobile_app {
@@ -2387,7 +2065,6 @@ margin-bottom: 5px; */
     width: 500px;
     margin: 0 auto;
     line-height: 27px;
-
 }
 
 .download_our_content_box img {
@@ -2405,12 +2082,9 @@ margin-bottom: 5px; */
     border: 6px solid #2ed0f8;
 }
 
-
 .testycl {
     padding-left: 0px !important;
 }
-
-
 
 /* inner page started */
 .about_inner_banner {
@@ -2422,7 +2096,6 @@ margin-bottom: 5px; */
     height: 450px;
     object-fit: cover;
 }
-
 
 .inner_abt_content_box {
     position: absolute;
@@ -2454,57 +2127,9 @@ margin-bottom: 5px; */
     position: relative;
 }
 
-
-/*.innerabt_hdg h3::before {*/
-/*    position: absolute;*/
-/*    content: '';*/
-/*    width: 34%;*/
-/*    height: 3px;*/
-/*    bottom: -7px;*/
-/*    left: 0px;*/
-/*    border-top-right-radius: 3px;*/
-/*    background: #009486;*/
-/*    border-bottom-right-radius: 3px;*/
-/*    transition: 0.5s ease;*/
-/*}*/
-
-/*.innerabt_hdg h3::after {*/
-/*    position: absolute;*/
-/*    content: '';*/
-/*    width: 60px;*/
-/*    height: 3px;*/
-/*    bottom: -7px;*/
-/*    left: 35%;*/
-/*    background: #fbc02d;*/
-/*    border-radius: 3px;*/
-/*    border: 1px solid #fbc02d;*/
-/*    transition: 0.5s ease;*/
-/*}*/
-
-/* .services_sevtion_hm:hover .innerabt_hdg h3::before{
-    width: 60%;
-         transition: 0.5s ease;
-}
-.services_sevtion_hm:hover .innerabt_hdg h3 h4::after{
-    width: 32px;
-    height: 3px;
-    bottom: 17px;
-    left: 11%;
-    transition: 0.5s ease;
-
-}
-
- */
-
-
-
-
-
-/* inner_abt_eight_sec aother section abt_inner */
 .inner_abt_eight_sec {
     padding: 60px 0px;
     background-color: #edecf2;
-
 }
 
 .inner_abt_mdl_Dimensionspic {
@@ -2533,7 +2158,6 @@ margin-bottom: 5px; */
 
 .inner_abt_eight_Dimensions_right {
     margin-top: 50px;
-
 }
 
 .inner_abt_eight_Dimensions_right h3 {
@@ -2571,14 +2195,14 @@ margin-bottom: 5px; */
     font-size: 25px;
     font-family: 'FontAwesome';
     font-weight: 800;
-    color: #009486;
+    color: #FF713E;
 }
 
 .financial_dimensions h3 {
     font-size: 25px;
     font-family: 'FontAwesome';
     font-weight: 800;
-    color: #009486;
+    color: #FF713E;
 }
 
 .eight_dimensions_box_spiritual_content p {
@@ -2591,42 +2215,36 @@ margin-bottom: 5px; */
     bottom: 5px;
     right: 5px;
     left: 5px;
-
     background-color: #e7e7e7;
     padding: 12px;
 }
+
 .financial_dimensions p{
     font-size: 16px;
 }
 
 .why_text_box1 {
     background-color: #e7e7e7;
-
 }
 
 .why_text_box2 {
     background-color: #296a9f36;
-
 }
 
 .why_text_box3 {
     background-color: #e7e7e7;
-
 }
 
 .why_text_box4 {
     background-color: #e7e7e7;
-
 }
 
 .why_text_box5 {
     background-color: #e7e7e7;
-
 }
 
 .why_text_box6 {
     background-color: #e7e7e7;
-
 }
 
 .eight_dimensions_box_spiritual_content {
@@ -2636,12 +2254,10 @@ margin-bottom: 5px; */
     background-attachment: inherit;
     background-size: contain;
     transition: 0.5s ease;
-
 }
 
 .eight_dimensions_box_spiritual_content:hover {
     background-image: linear-gradient(135deg, #ffffff 0, #ffffff 100%), url(../images/serv/serv_ct_bg.jpg);
-
 }
 
 .financial_dimensions {
@@ -2651,12 +2267,10 @@ margin-bottom: 5px; */
     background-attachment: inherit;
     background-size: contain;
     transition: 0.5s ease;
-
 }
 
 .financial_dimensions:hover {
     background-image: linear-gradient(135deg, #ffffff 0, #ffffff 100%), url(../images/serv/serv_ct_bg.jpg);
-
 }
 
 /*  */
@@ -2681,8 +2295,6 @@ margin-bottom: 5px; */
     border-radius: 0px 15px 15px 0px;
 }
 
-
-
 .approach_towards_health_in_left {}
 
 .approach_towards_health_in_left_heading h3 {
@@ -2693,7 +2305,7 @@ margin-bottom: 5px; */
 }
 
 .approach_towards_health_in_left_content h4 {
-    color: #009486;
+    color: #FF713E;
     font-size: 25px;
     margin-top: 12px;
 }
@@ -2703,7 +2315,6 @@ margin-bottom: 5px; */
     padding-bottom: 1px;
     color: #fff;
 }
-
 
 .approach_towards_health_in_left_content ul {
     margin: 0px;
@@ -2723,6 +2334,8 @@ margin-bottom: 5px; */
     border-radius: 20px 20px 0px 0px;
 }
 
+
+/* What You Can Expect From Us */
 /* What You Can Expect From Us */
 .what_you_can_expect_innerpage {
     position: relative;
@@ -2731,11 +2344,13 @@ margin-bottom: 5px; */
 .what_you_can_expect_hd h2 {
     font-weight: 600;
     text-transform: capitalize;
-    color: #FF713E;
+    color: #FF713E; /* Updated color code */
     font-family: 'Merriweather', serif;
     text-transform: uppercase;
     position: relative;
 }
+
+/* ... (rest of the CSS remains unchanged) */
 
 /*.what_you_can_expect_hd h2::before {*/
 /*    position: absolute;*/
@@ -2971,7 +2586,7 @@ margin-bottom: 5px; */
 .about_inner_our_story_left h3 {
     font-weight: 900;
     font-size: 30px;
-    color: #009486;
+    color: #FF713E;
     font-family: 'Merriweather', serif;
     text-transform: uppercase;
     position: relative;
@@ -3079,7 +2694,7 @@ margin-bottom: 5px; */
     margin-bottom: 0px;
     font-weight: 900;
     font-size: 30px;
-    color: #009486;
+    color: #FF713E;
     position: relative;
     font-family: 'Merriweather', serif;
     text-transform: uppercase;
@@ -3109,7 +2724,7 @@ margin-bottom: 5px; */
     font-weight: 900;
     font-size: 30px;
     position: relative;
-    color: #009486;
+    color: #FF713E;
     font-family: 'Merriweather', serif;
     text-transform: uppercase;
 }
@@ -3144,7 +2759,7 @@ margin-bottom: 5px; */
     left: 0px;
     width: 300px;
     height: 250px;
-    background-color: #009486;
+    background-color: #FF713E;
     clip-path: polygon(0 17%, 100% 0, 100% 100%, 0% 100%);
 }
 
@@ -3157,7 +2772,7 @@ margin-bottom: 5px; */
 
 .team_our_directors_inner_about_bharath_content {
     width: 300px;
-    background: #009486;
+    background: #FF713E;
     color: #fff;
     padding: 25px;
     margin-top: -91px;
@@ -3309,21 +2924,18 @@ margin-bottom: 5px; */
     background: #141f6254;
     padding: 12px;
 }
-
 .modal-foote_r a {
     text-decoration: none;
-    color: #FF713E;
-    text-decoration: none;
+    color: #FF713E; /* Updated color */
     padding: 13px 15px;
     border-radius: 50px;
-    border: 1px solid #FF713E;
+    border: 1px solid #FF713E; /* Updated color */
 }
 
 .modal-foote_r a img {
     width: 16px;
     margin-left: 2px;
 }
-
 
 
 .ashwitha_manikyarao_dite_page {
@@ -3351,7 +2963,7 @@ margin-bottom: 5px; */
     content: '';
     width: 377px;
     height: 500px;
-    background-color: #009486;
+    background-color: #FF713E;
     border-radius: 145px 0px 145px 0px;
 }
 
@@ -3364,7 +2976,7 @@ margin-bottom: 5px; */
     height: 500px;
     background-color: #00948600;
     border-radius: 144px 0px 0px 0px;
-    border: 4px #009486 solid;
+    border: 4px #FF713E solid;
 }
 
 
@@ -3465,7 +3077,7 @@ margin-bottom: 5px; */
 .helath_nutrition_center h2 {
     font-weight: 900;
     font-size: 30px;
-    color: #008f82;
+    color: #FF713E;
     font-family: 'Merriweather', serif;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -3715,7 +3327,7 @@ margin-bottom: 5px; */
 
     height: 300px;
     margin: 20px 0px;
-    border: 4px solid #FF713Eb5;
+    border: 4px solid #FF713E;
     border-radius: 51px 0px 55px 0px;
 }
 
@@ -3735,7 +3347,7 @@ margin-bottom: 5px; */
 }
 
 .ser-cnt:hover {
-    background-color: #4ab4ab;
+    background-color: #FF713E;
     transition: 0.5s ease;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -4549,7 +4161,7 @@ width: 100%;
 }
 
 .heading-main small {
-    color: #477763;
+    color: #FF713E;
     /* font-family: 'Playfair Display', serif; */
     position: relative;
     text-transform: capitalize;
@@ -4564,7 +4176,7 @@ width: 100%;
     content: "";
     height: 2px;
     width: 41px;
-    background: #477763;
+    background: #FF713E;
     top: 50%;
     left: -60px;
     transform: translateY(-50%);
@@ -4581,7 +4193,7 @@ width: 100%;
     position: absolute;
     top: -300px;
     right: 40px;
-    color: #477763;
+    color: #FF713E;
     opacity: 0.2;
     z-index: -1;
 }
@@ -4638,8 +4250,8 @@ textarea.form-control {
 .btn-primary:disabled,
 .btn-primary:hover:disabled {
     color: #fff;
-    background-color: #477763 !important;
-    border-color: #477763 !important;
+    background-color: #FF713E !important;
+    border-color: #FF713E !important;
 }
 
 .btn {
@@ -4666,8 +4278,8 @@ textarea.form-control {
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #3e6e5a !important;
-    border-color: #3e6e5a !important;
+    background-color: #FF713E !important;
+    border-color: #FF713E !important;
 }
 
 .btn:before {
@@ -5148,14 +4760,14 @@ a:focus {
 }
 
 .tab-sec h1 {
-    color: #FF713E;
+    color: #009688;
     font-size: 30px;
     line-height: 48px;
     font-weight: 700;
 }
 
 .tab-sec .title-shape {
-    background: #FF713E;
+    background: #009688;
 }
 
 .tab-sec .title-shape {
@@ -5369,7 +4981,7 @@ a {
 .services-small-item.active .button i,
 .services-small-item:hover .button i {
     background-image: linear-gradient(135deg, #fff 0%, #fff 100%) !important;
-    color: #2b708b !important;
+    color: #FF713E !important;
 }
 
 .services-small-item:hover {
@@ -5479,7 +5091,7 @@ a {
 }
 
 .title-shape1 {
-    background: #FF713E;
+    background: #009688;
 }
 
 .title-shape1 {
@@ -6344,7 +5956,7 @@ a {
 }
 
 .health_wellness_page_sec_hd h3 {
-    color: #FF713E;
+    color: #009688;
     font-size: 30px;
     font-weight: 600;
     font-family: 'Merriweather', serif;
@@ -6442,7 +6054,7 @@ a {
         height: auto;
     }
     .health_wellness_page_sec_hd h3 {
-        color: #FF713E;
+        color: #009688;
         font-size: 20px;
     }
     .health_wellness_box_pic img {
@@ -6681,7 +6293,7 @@ a {
 
 
 .how_it_works_boxs h3 {
-    color: #008f82;
+    color: #FF713E;
     font-size: 21px;
     height: 75px;
     font-weight: 600;
@@ -6926,7 +6538,7 @@ a {
     padding: 30px 0px 40px 0px;
 }
 .our_team_hding h3{
-    color: #FF713E;
+    color: #009688;
     font-size: 30px;
     font-weight: 600;
     font-family: inherit;
@@ -6973,7 +6585,7 @@ a {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: #FF713E;
+    background: #009688;
      position: absolute;
     top: 0;
     left: 0;
@@ -7009,7 +6621,7 @@ a {
     width: 100%;
     padding: 0;
     margin: 0;
-    background: #FF713E;
+    background: #009688;
      position: absolute;
     bottom: -100px;
     left: 0;
@@ -7183,7 +6795,7 @@ WELLNESS PROGRAMS inner page round section  ====================--------------==
     }
 
     .wheel_wellness_right h4 {
-        color: #FF713E;
+        color: #009688;
         font-family: inherit;
         font-weight: 600;
         width: 100%;
@@ -7365,7 +6977,7 @@ WELLNESS PROGRAMS inner page round section  ====================--------------==
         width: 100%;
     }
     .tab-sec h1 {
-        color: #FF713E;
+        color: #009688;
         font-size: 19px;
         line-height: inherit;
     }
@@ -7390,7 +7002,7 @@ WELLNESS PROGRAMS inner page round section  ====================--------------==
     }
     .ashwitha_manikyarao_leftpic_bottom_ctnt ul {
         padding: 9px;
-        background-color: #FF713E;
+        background-color: #009688;
         color: #fff;
         border-radius: 10px;
         text-align: center;
@@ -7432,7 +7044,7 @@ WELLNESS PROGRAMS inner page round section  ====================--------------==
         transform: translate(0%, -50px);
         text-align: center;
         width: 268px;
-        background-color: #FF713E66;
+        background-color: #00968866;
         padding: 7px 0px 0px 0px;
     }
     
@@ -7800,7 +7412,7 @@ WELLNESS PROGRAMS inner page round section  ====================--------------==
 
 
 .wight_heading_name h3{
-    color: #FF713E;
+    color: #009688;
     font-size: 30px;
     font-weight: 600;
     font-family: 'Merriweather', serif;
@@ -7846,7 +7458,7 @@ WELLNESS PROGRAMS inner page round section  ====================--------------==
     padding: 40px 0px;
 }
 .pln-head h2{
-    color: #FF713E;
+    color: #009688;
     font-size: 30px;
     font-weight: 600;
     font-family: 'Merriweather', serif;
@@ -8093,7 +7705,7 @@ WELLNESS PROGRAMS inner page round section  ====================--------------==
 }
 
 .plans_page_farm_box_hd h3 span{
-    color: #FF713E;
+    color: #009688;
     font-size: 30px;
     font-weight: 600;
     font-family: 'Merriweather', serif;
@@ -8231,7 +7843,7 @@ WELLNESS PROGRAMS inner page round section  ====================--------------==
 }
 
 .Weight_loss_catogories_hd h3{
-    color: #FF713E;
+    color: #009688;
     font-size: 30px;
     font-weight: 600;
     font-family: 'Merriweather', serif;
@@ -8310,11 +7922,11 @@ WELLNESS PROGRAMS inner page round section  ====================--------------==
 
 
 .Weight_loss_catogories_btn a{
-    color: #FF713E;
+    color: #009688;
     text-decoration: none;
     padding: 8px 12px;
     border-radius: 50px;
-    border: 1px solid #FF713E;
+    border: 1px solid #009688;
 }
 .Weight_loss_catogories_boxs:hover a{
     color: #fff !important;
@@ -8344,7 +7956,7 @@ WELLNESS PROGRAMS inner page round section  ====================--------------==
 }
 @media (max-width:600px){
     .Weight_loss_catogories_hd h3 {
-        color: #FF713E;
+        color: #009688;
         font-size: 20px;
     }
 

@@ -15,7 +15,7 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="<?php echo base_url();?>website-assets/images/banner/Diet-Nutrition.jpg" alt="First slide">
+                    <img class="d-block w-100" src="<?php echo base_url();?>website-assets/images/banner/banner19.jpg" alt="First slide">
 
                 </div>
                 <div class="carousel-item" >
@@ -62,7 +62,7 @@
                         <img src="<?php echo base_url();?>website-assets/images/sr-1.jpg" class="abt-left-pic2" alt="">
                         <div class="abt-left-pic3">
                             <!-- <img src="./assets/images/pngs/exprnc1.png" alt=""> -->
-                            <h4>Change Begins with Fight Fat!</h4>
+                            <h4>Change Begins with f8t!</h4>
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
                         <h2 style="text-transform: uppercase;">Person-centered approach</h2>
                         <!-- <h3>We have 20 years of nutrition and fitness health experience globaly, work with professionals
                         </h3> -->
-                        <p>"Fight Fat is committed to deliver the highest quality of health services which include
+                        <p>" f8t is committed to deliver the highest quality of health services which include
                             prevention,
                             promotion, and wellness for all by using a holistic and integrated approach."</p>
                         <div class="about-icons-section">
@@ -271,7 +271,7 @@
                                 <div class="serv_box_hm">
                                     <img class="serv_pic_ab" src="<?php echo base_url();?>website-assets/images/banner/mental.jpg" alt="">
                                     <div class="serv_box_hm_text" data-aos="fade-left" data-aos-duration="2000">
-                                        <h3>Mental and Emotional well being</h3>
+                                        <h3>Emotional Wellness</h3>
                                         <p> Maintaining mental and emotional well-being involves a multifaceted approach that encompasses both self-care practices and accessing professional being. </p>
                                         <!-- <h5 class="serv_clip"></h5> -->
                                         <a href="<?php echo base_url();?>health-life-coaching"> Read More <img
@@ -309,7 +309,7 @@
                 <div class="col-lg-7">
                     <div class="flex-alignment">
                     <div class="wheel_wellness_right">
-                        <h4>WHEEL OF WELLNESS</h4>
+                        <h4>WHAT IS CARAMEL</h4>
                         <p>Creating balance in our lives is an important part of wellness. Overall, a balanced life can
                             mean many things, depending on culture, circumstances, resources, and other factors. Balance
                             means making sure we have time to do the things that make us feel happy and fulfilled. This
@@ -334,7 +334,9 @@
                         <div class="wheel_wellness_left_in2">
                             <!-- <img class="wheel_wellness_round1" src="<?php echo base_url();?>website-assets/images/Screenshot_rd1.png" alt="">
                             <img class="wheel_wellness_round2" src="<?php echo base_url();?>website-assets/images/Logo_1.jpg" alt=""> -->
-                            <img class="wheel_wellness_round1" src="<?php echo base_url();?>website-assets/images/banner/caramel-removebg-preview.png" alt="">
+                            <iframe class="about_inner_youotube_vid" src="<?php echo base_url();?>website-assets/videos/AboutVideo.mp4"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
                         </div>
                     </div>
                     
@@ -355,7 +357,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="mobile_app_pic">
-                        <img src="<?php echo base_url();?>website-assets/images/pngs/App-3.png" alt="" data-aos="fade-right" data-aos-duration="1500">
+                        <img src="<?php echo base_url();?>website-assets/images/pngs/OpeningScreen.jpg" alt="" data-aos="fade-right" data-aos-duration="1500">
                         <!-- <img src="./assets/images/app_pic2.jpg" alt=""> -->
                     </div>
                 </div>
@@ -365,7 +367,7 @@
                         <h3>Download our Mobile App</h3>
                         <p>We provide complete support on our Mobile Application available both in Apple AppStore as
                             well as Google Playstore!</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.sujeevan" target="_blank"><img
+                        <a href="https://play.google.com/store/apps/details?id=com.sushmanaalla3.snack7aa5f1399eb54cba8101894a7ce4072e" target="_blank"><img
                                 src="<?php echo base_url();?>website-assets/images/google_play.png" alt=""></a>
                     </div>
                 </div>
@@ -373,7 +375,7 @@
                 <div class="col-lg-3">
                     <div class="mobile_app_pic">
                         <!-- <img src="./assets/images/app_pic1.jpg" alt=""> -->
-                        <img src="<?php echo base_url();?>website-assets/images/pngs/App-2.png" alt="" data-aos="fade-left" data-aos-duration="2000">
+                        <img src="<?php echo base_url();?>website-assets/images/pngs/CARAMELReport.jpg" alt="" data-aos="fade-left" data-aos-duration="2000">
                     </div>
                 </div>
             </div>

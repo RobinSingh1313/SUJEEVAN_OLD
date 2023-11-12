@@ -10,9 +10,15 @@
                         <a href="<?php echo base_url();?>">
                             <img src="<?php echo base_url();?>website-assets/images/banner/Logo.png" alt="" style="width: 100px;">
                         </a>
+                        <h6 style="color: #FF713E">Fighting Fat. Promoting Health</h6>
 
-                        <p>Fight Fat is committed to deliver the highest quality of health services which include
-                            prevention, promotion, and wellness for all by using a holistic and integrated approach.</p>
+                        <p>"f8t" is a dynamic and
+purpose-driven health
+and wellness company
+committed to
+transforming lives by
+combating excessfat and
+its adverse health effects</p>
                         <div class="social-links">
                             <a href="#" class="face_sllk"><i class="bi-twitter fa fa-facebook" aria-hidden="true"></i>
                             </a>
@@ -29,7 +35,7 @@
                         <ul>
                             <li><a href="<?php echo base_url();?>">Home</a></li>
                             <li><a href="<?php echo base_url();?>about-us">About Us </a></li>
-                            <li><a href="<?php echo base_url();?>why-sujeevan">Why Fight Fat </a></li>
+                            <li><a href="<?php echo base_url();?>why-sujeevan">Why f8t </a></li>
                             <li><a href="<?php echo base_url();?>diet-nutrition">Services </a></li>
                             <li><a href="<?php echo base_url();?>contactus">Contact Us </a></li>
                         </ul>
@@ -48,7 +54,7 @@
 
                 <div class="col-lg-7 col-sm-12 col-xs-12">
                     <div class="footerbottom1">
-                        <h5>© 2022 Fight Fat Health Care All Rights Reserved.</h5>
+                        <h5>© 2022 f8t Health Care All Rights Reserved.</h5>
                     </div>
                 </div>
 

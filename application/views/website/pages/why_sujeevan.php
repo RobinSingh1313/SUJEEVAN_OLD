@@ -4,7 +4,7 @@
     <div class="about_inner_banner">
         <img src="<?php echo base_url();?>website-assets/images/banner/yoga_girl_banner.jpg" alt="">
         <div class="inner_abt_content_box">
-            <h4>Success With Fight Fat</h4>
+            <h4>Success With f8t</h4>
             <p>Our Mission is to provide whole person-centered care and services, illness prevention health promotion,
                 decrease morbidity and icrese the lifespan of a person.</p>
         </div>
@@ -85,9 +85,13 @@
                 <div class="col-lg-5">
                    <div class="wheel_wellness_left_2">
                         <div class="wheel_wellness_left_in2">
-                            <img class="wheel_wellness_round1" src="<?php echo base_url();?>website-assets/images/Screenshot_rd1.png" alt="">
-                            <img class="wheel_wellness_round2" src="<?php echo base_url();?>website-assets/images/Logo_1.jpg" alt="">
-                        </div>
+                        <div class="banner-cnt-sec">
+            <div class="banner_round_abt_img">
+                <img src="<?php echo base_url();?>website-assets/images/pngs/good_health_good.png" alt="">
+            </div>
+            <h1 class="animate-charcter">                             <img src="<?php echo base_url();?>website-assets/images/banner/Logo.png" alt="" style="width: 150px;">
+</h1>
+        </div>                        </div>
                     </div>
                 </div>
 
@@ -365,7 +369,7 @@
                 <div class="col-lg-6">
                     <div class="approach_towards_health_in_left">
                         <div class="approach_towards_health_in_left_heading">
-                            <h3>FIGHT FAT’S APPROACH TOWARDS HEALTH SOLUTION</h3>
+                            <h3>f8t  APPROACH TOWARDS HEALTH SOLUTION</h3>
                         </div>
                         <div class="approach_towards_health_in_left_content">
 

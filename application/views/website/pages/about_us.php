@@ -14,7 +14,8 @@
             <div class="banner_round_abt_img">
                 <img src="<?php echo base_url();?>website-assets/images/pngs/good_health_good.png" alt="">
             </div>
-            <h1 class="animate-charcter"> <img src="<?php echo base_url();?>website-assets/images/Logo_1.jpg" alt=""></h1>
+            <h1 class="animate-charcter">                             <img src="<?php echo base_url();?>website-assets/images/banner/Logo.png" alt="" style="width: 150px;">
+</h1>
         </div>
         <!-- GOOD HEALTH FOR GOOD LIFE -->
 
@@ -30,26 +31,12 @@
                         <h3>Our Story</h3>
 
                         <p>
-                            Fight Fat Health and Wellness Services PVT Ltd was founded in the year 2020 by two brothers
-                            Bharath Atthe and Dr. Bhageerath Atthe (MD, DM Cardiology). At a very young age, they lost
-                            their dad in a road accident, his dad could have saved if there were proper health care
-                            facilities near the rural area where the incident has happened. That tragedy in their life
-                            changed everything for them, it was always in their mind that when they grow up they want to
-                            be healthcare professionals and change how the healthcare system is delivered in India.
+                        "f8t" is a dynamic and purpose-driven health and wellness company committed to transforming lives by combating excess fat and its adverse health effects. Our mission is clear: to fight fat and, in doing so, combat diseases that lead to conditions such as cardiac diseases, renal diseases, metabolic syndromes, eye diseases, liver diseases, and more.At "f8t," we believe that wellness is a journey, and we are dedicated to guiding individuals on their path to better health. We offer evidence-based solutions, cutting-edge technology, and personalized support to empower our clients in their fight against fat and its associated health challenges.
+
                         </p>
 
                         <p>
-                            Bharath Atthe after finishing his undergrad in Biomedical Engineering (BME) in 2006 with his
-                            quest for research, development, and innovation in healthcare, started his research journey
-                            in Singapore as an Intern and went to the USA to pursue his Master’s and Ph.D. in BME at one
-                            of the most renowned Universities for BME in the country. Bharath has published several
-                            research papers in the field of NanoEngineering, Tissue Engineering, Non-invasive monitoring
-                            of diseases in the Kidney, Heart, and Brain using Magnetic Resonance Imaging (MRI)
-                            techniques, also presented his research work at scientific conferences across the USA and
-                            Canada. During his stint as a Research Scientist and a Data Scientist, his work was focused
-                            on early detection of diseases, clinical trials on finding the efficacy of a drug on
-                            Multiple Sclerosis patients, prediction of certain diseases based on the risk parameters of
-                            patients using machine learning & Artificial Intelligence (AI) models.
+                        Our holistic approach encompasses dietary guidance, physical activity, lifestyle management, and emotional well-being. By addressing the root causes of fat accumulation and promoting healthier habits, we aim to reduce the prevalence of preventable diseases and improve the quality of life for countless individuals.As a company, "f8t" is driven by a commitment to research, innovation, and a genuine desire to make a positive impact on global health. We invite you to join us in our mission to fight fat, promote health, and create a world where everyone can enjoy a healthier, happier life.
                         </p>
 
                     </div>
@@ -57,15 +44,14 @@
                 
                 <div class="col-lg-6 col-md-12">
                     <div class="about_inner_our_story_right">
-                        <iframe class="about_inner_youotube_vid" src="https://www.youtube.com/embed/udFScTmblF0"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                    <iframe class="about_inner_youotube_vid" src="<?php echo base_url();?>website-assets/videos/AboutVideo.mp4"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
                     </div>
                 </div>
 
             </div>
-            <!--  -->
+            <!--  
             <div class="row">
                 <div class="col-md-12">
                     <div class="about_inner_our_story_left">
@@ -91,7 +77,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div>-->
 
 
         </div>
@@ -108,9 +94,13 @@
                         <div class="about_inner_our_content">
 
                             <h3>OUR MISSION</h3>
-                            <p>Fight Fat Health & Wellness provides whole person-centered care and services, illness
-                                prevention, health promotion, decrease morbidity and increase the lifespan<br> of a
-                                person.
+                            <p>Our mission is clear: to fight fat and,
+in doing so, combat diseases that
+lead to conditions such as cardiac
+diseases, renal diseases, metabolic
+syndromes, eye diseases, liver
+diseases, and more.
+
                             </p>
 
                         </div>
@@ -138,86 +128,28 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <div class="about_inner_values_headding">
-                        <h2>values</h2>
-                    </div>
-                    <div class="about_inner_values_box">
-                        <div class="about_inner_values_boxpic">
-                            <h3>CA</h3>
-                        </div>
-                        <div class="about_inner_values_boxcont">
-                            <h4 class="about_inner_values_h4f"><b>CA</b>rdio
-                                </h4>
-                        </div>
-                    </div>
-                    <div class="about_inner_values_box">
-                        <div class="about_inner_values_boxpic">
-                            <h3> R</h3>
-                        </div>
-                        <div class="about_inner_values_boxcont">
-                            <h4><b>R</b>enal</h4>
-                        </div>
-                    </div>
+                At "f8t,
+" we believe that wellness is a journey, and
+we are dedicated to guiding individuals on their
+path to better health.
+We offer:
+<ul></ul>
+<li>Evidence-based solutions
+</li>
+<li>Cutting-edge technology
+</li>
+<li>Personalized support
+</li>
+                        </break>
+To empower our clients in their fight against fat and
+its associated health challenges.
 
-                    <div class="about_inner_values_box">
-                        <div class="about_inner_values_boxpic">
-                            <h3>AM</h3>
-                        </div>
-                        <div class="about_inner_values_boxcont">
-                            <h4> <b>A</b>dipo-<b>M</b>etabolic</h4>
-                        </div>
-                    </div>
-
-                    <div class="about_inner_values_box">
-                        <div class="about_inner_values_boxpic">
-                            <h3>E</h3>
-                        </div>
-                        <div class="about_inner_values_boxcont">
-                            <h4><b>E</b>ye</h4>
-                        </div>
-                    </div>
-
-                    <div class="about_inner_values_box">
-                        <div class="about_inner_values_boxpic">
-                            <h3>L</h3>
-                        </div>
-                        <div class="about_inner_values_boxcont">
-                            <h4><b>L</b>iver</h4>
-                        </div>
-                    </div>
-
-                    <!-- <div class="about_inner_values_box">
-                        <div class="about_inner_values_boxpic">
-                            <h3>V</h3>
-                        </div>
-                        <div class="about_inner_values_boxcont">
-                            <h4><b>V</b>ersatility</h4>
-                        </div>
-                    </div>
-
-                    <div class="about_inner_values_box">
-                        <div class="about_inner_values_boxpic">
-                            <h3>A</h3>
-                        </div>
-                        <div class="about_inner_values_boxcont">
-                            <h4> <b>A</b>ctive</h4>
-                        </div>
-                    </div>
-
-                    <div class="about_inner_values_box">
-                        <div class="about_inner_values_boxpic">
-                            <h3>N</h3>
-                        </div>
-                        <div class="about_inner_values_boxcont">
-                            <h4> <b>N</b>urture</h4>
-                        </div>
-                    </div> -->
 
                 </div>
                 <div class="col-md-4">
                     <div class="about_inner_values_right">
                         <img class="about_inner_values_right_pic1" src="<?php echo base_url();?>website-assets/images/yoga_gl.jpg" alt="">
-                        <img class="about_inner_values_right_pic2" src="<?php echo base_url();?>website-assets/images/pngs/wellness.png" alt="">
+                  <!--      <img class="about_inner_values_right_pic2" src="<?php echo base_url();?>website-assets/images/pngs/wellness.png" alt="">-->
                     </div>
                 </div>
 
@@ -229,7 +161,8 @@
 
 
 
-    <!-- TEAm  Our Directors -->
+                    
+    <!-- TEAm  Our Directors 
     <div class="team_our_directors_inner_about">
         <div class="container">
 
@@ -273,7 +206,7 @@
             </div>
         </div>
     </div>
-    <!--  -->
+    
     <div class="about_inner_contact_boxs">
         <div class="container">
             <div class="row">
@@ -297,7 +230,7 @@
             </div>
         </div>
     </div>
-
+                        -->          
     <!-- <div id="footer"></div> -->
 
 
